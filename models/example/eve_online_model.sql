@@ -8,7 +8,7 @@ select
   , TYPE_ID
   , sum(volume_remain)
   , avg(price)
-from EVE_ORDERS
+from GOOGLE_CLOUD_FUNCTION.EVE_ORDERS
 group by
   SYSTEM_ID
   , TYPE_ID
